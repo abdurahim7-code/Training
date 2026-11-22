@@ -1,1 +1,7 @@
-console.log("this is first commit on Git!");
+function calculateReturn() {
+    const a = 213; 
+    const b = 214; 
+    return a * b; 
+}
+const result = calculateReturn(); 
+console.log("result", result);
