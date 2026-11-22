@@ -1,7 +1,6 @@
-function calculateReturn() {
-    const a = 213; 
-    const b = 214; 
-    return a * b; 
+/* This is an arrow functio*/
+
+const arrow = () => {
+    console.log("hello world from arrow function!");
 }
-const result = calculateReturn(); 
-console.log("result", result);
+arrow()
